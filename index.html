@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
     <title>Hoja de vida</title>
+    <style>
+        body {
+          background-image: url('background_img.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
 </head>
 
-<body>
+<body style="color: white;">
     <h1>Dylan Giuseppe Rivera Sotelo</h1>
     <p>Web developer Fullstack Python</p>
     <p>Email: dylanalzat@gmail.com</p>
     <p>Teléfono: +57 3212806778</p>
     <p>Ubicación: Tolima, Colombia</p>
-    <p><a href="https://github.com/DyLaNSoTeLo/" target="_blank">GitHub</a></p>
-    <p><a href="www.linkedin.com/in/dylan-giuseppe-sotelo" target="_blank">LinkedIn</a></p>
+    <div id="app">
+        <button>
+        <span><a href="https://github.com/DyLaNSoTeLo/" target="_blank">GitHub</a></span>
+        <div class="icon">
+        </div>
+        <div class="overlay"></div>
+        </button>
+    </div>
+    <div id="app">
+        <button>
+            <span><a href="www.linkedin.com/in/dylan-giuseppe-sotelo" target="_blank">LinkedIn</a></span>
+            <div class="icon">
+            </div>
+            <div class="overlay"></div>
+            </button>
+        </div>
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
