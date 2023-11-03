@@ -11,15 +11,17 @@
     }
   }
 
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #030303;
-    border-bottom: 2px solid black;
+    background-color: #0a09097e;
+    border-bottom: 2px solid rgb(10, 10, 10);
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
+
 
 .Proyectos {
     display: grid;
@@ -36,7 +38,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(167, 166, 187) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 #app {
@@ -69,7 +71,7 @@ body {
         z-index: 3;
 
         & svg{
-            fill: #000000;
+            fill: #020202;
         }
     }
 
@@ -80,7 +82,7 @@ body {
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: rgb(0, 0, 0);
+        background-color: #0a09097e;
         z-index: 1;
         clip-path: circle(12% at 79% 49%);
         transition: all .5s ease-in;
@@ -99,7 +101,7 @@ h1 {
     padding: 5px; 
     margin: 10px; 
     border: 2px solid rgb(17, 12, 12); 
-    background-color: rgb(0, 0, 0); 
+    background-color: #0a09097e(216, 77, 77); 
     color: rgb(2, 2, 2); 
     text-align: center;
     font-size: 30px;
@@ -108,7 +110,7 @@ h1 {
 }
 
 @keyframes color-change {
-    0% {color: rgb(3, 3, 3);}
+    0% {color: rgb(247, 247, 247);}
     50% {color: rgb(2, 2, 2);}
     100% {color: red;}
 }
@@ -169,7 +171,7 @@ form {
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    background-color:rgb(51, 50, 50); 
+    background-color:#0a09097e(51, 50, 50); 
 }
 
 label {
@@ -178,11 +180,11 @@ label {
 
 input[type="email"], textarea {
    width:100%; 
-   padding:10px; 
-   border-radius:4px; 
+   padding:5px; 
+   border-radius:10px; 
    transition:border-color .3s ease-in-out; 
    border-color:#f3f1f1; 
-   margin-bottom:20px; 
+   margin-bottom:5px; 
    border:solid thin #aaa; 
    box-shadow:none; 
 }
@@ -201,7 +203,20 @@ input[type="submit"]:hover {
    background-color:#0a0a0a; 
 }
 
+footer {
+    background-color: #0a09097e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
+footer p {
+    margin: 0.5px 0;
+}
 
 
 
